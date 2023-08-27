@@ -1,6 +1,6 @@
 "use client";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { MainNavLink } from "./components/main-nav-link";
 import { getViewHeight } from "@/lib/utils";
 import {
@@ -23,7 +23,9 @@ export const MainNavigation = () => {
     }
   };
 
-  window.addEventListener("scroll", changeBackground);
+  useEffect(() => {
+    window.addEventListener("scroll", changeBackground);
+  });
 
   return (
     <div
