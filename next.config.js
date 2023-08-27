@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: [
+      "https://summit-health-and-body-works.vercel.app/",
+      "www.summithealthbody.com",
+    ],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
