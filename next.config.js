@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     domains: [
-      "https://summit-health-and-body-works.vercel.app/",
+      "https://summit-health-and-body-works.vercel.app",
       "www.summithealthbody.com",
     ],
   },
