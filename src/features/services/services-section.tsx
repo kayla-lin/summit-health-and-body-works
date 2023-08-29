@@ -34,7 +34,7 @@ export const ServicesSection = () => {
         <ImageWithCaption
           title="Massages"
           desc="Relax with massage therapy: neural muscular, Swedish, deep tissue, prenatal therapy, and more."
-          img="/massage.jpg"
+          img="/massage.JPG"
           alt="Massage therapist massaging"
         />
       </div>

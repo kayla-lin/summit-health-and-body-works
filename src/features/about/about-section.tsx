@@ -36,7 +36,7 @@ export const AboutSection = () => {
         </div>
         <div className="lg:w-[32rem] lg:relative">
           <Image
-            src="/neil.jpg"
+            src="/neil.JPG"
             alt="Cornelius Wilson"
             layout="responsive"
             width={500}

@@ -8,21 +8,21 @@ import { ImageWithCaption } from "@/components/image-caption";
 const STUDIO_IMAGES = [
   {
     alt: "Exercise chair with dumb bell weights in background",
-    src: "/livingston/chair.jpg",
+    src: "/livingston/chair.JPG",
   },
   {
     alt: "Photo of Summit Health and Body Works logo on wall",
-    src: "/livingston/logo.jpg",
+    src: "/livingston/logo.JPG",
   },
-  { alt: "Photo of Livingston dumb bell rack", src: "/livingston/weights.jpg" },
-  { src: "/summit/bells.jpg", alt: "Photo of Summit dumb bell rack" },
-  { src: "/summit/main.jpg", alt: "Photo of main gym area of Summit location" },
+  { alt: "Photo of Livingston dumb bell rack", src: "/livingston/weights.JPG" },
+  { src: "/summit/bells.JPG", alt: "Photo of Summit dumb bell rack" },
+  { src: "/summit/main.JPG", alt: "Photo of main gym area of Summit location" },
   {
-    src: "/summit/moving-ropes.jpg",
+    src: "/summit/moving-ropes.JPG",
     alt: "Neil moving exercise ropes at the Summit location",
   },
   {
-    src: "/summit/pullup.jpg",
+    src: "/summit/pullup.JPG",
     alt: "Neil doing a pull up at the Summit location",
   },
 ];
