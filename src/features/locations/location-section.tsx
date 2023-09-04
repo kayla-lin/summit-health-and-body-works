@@ -2,7 +2,7 @@
 import { SectionHeader } from "@/components/section-header";
 import React from "react";
 import { Carousel, CarouselItem } from "../../components/ui/carousel";
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 import { ImageWithCaption } from "@/components/image-caption";
 
 const STUDIO_IMAGES = [

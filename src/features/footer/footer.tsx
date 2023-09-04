@@ -2,7 +2,7 @@ import { MobileIcon } from "@radix-ui/react-icons";
 import React from "react";
 import { FooterDetail } from "./FooterDetail";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 import { SHBW_TITLE } from "@/lib/consts";
 
 export const Footer = () => {

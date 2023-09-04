@@ -1,5 +1,5 @@
 import { SectionHeader } from "@/components/section-header";
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 import React from "react";
 
 export const AboutSection = () => {

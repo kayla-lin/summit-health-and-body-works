@@ -1,5 +1,5 @@
 import { SectionHeader } from "@/components/section-header";
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 import React from "react";
 
 const CertificationSection = () => {
@@ -11,7 +11,7 @@ const CertificationSection = () => {
           src="/aced-logo.svg"
           alt="ACED certified logo"
           width={150}
-          height={10}
+          height={100}
         />
         <Image
           src="/afaa.png"

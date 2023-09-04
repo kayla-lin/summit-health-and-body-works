@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { BOOKINGS } from "@/lib/consts";
-import Image from "next/image";
+import Image from "next-image-export-optimizer";
 import Link from "next/link";
 import React from "react";
 
