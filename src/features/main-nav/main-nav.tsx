@@ -16,7 +16,7 @@ export const MainNavigation = () => {
   const [isTransparent, setIsTransparent] = useState<boolean>(true);
 
   const changeBackground = () => {
-    if (window.scrollY >= getViewHeight(100)) {
+    if (window.scrollY > 0) {
       setIsTransparent(false);
     } else {
       setIsTransparent(true);
@@ -31,7 +31,7 @@ export const MainNavigation = () => {
     <div
       className={`z-50 fixed w-full p-5 font-medium ${
         !isTransparent
-          ? "-top-2  bg-white translate-y-2 text-black transition ease-in-out delay-150 border-b border-gray-300"
+          ? "bg-white text-black border-b border-gray-300"
           : "text-white"
       }`}
     >
